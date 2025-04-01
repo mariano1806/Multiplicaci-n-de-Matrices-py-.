@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicación de Matrices</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Multiplicación de Matrices</h1>
+
+    <div class="container">
+        <!-- Dimensiones de las matrices -->
+        <div class="section">
+            <h2>Dimensiones de la Matriz 1</h2>
+            Filas: <input type="number" id="rows1" value="2">
+            Columnas: <input type="number" id="cols1" value="2">
+        </div>
+
+        <div class="section">
+            <h2>Dimensiones de la Matriz 2</h2>
+            Filas: <input type="number" id="rows2" value="2">
+            Columnas: <input type="number" id="cols2" value="2">
+        </div>
+
+        <button id="btn-ingresar">Ingresar Matrices</button>
+
+        <div class="matrices-container">
+            <div class="matrix" id="matrix1-container"></div>
+            <div class="matrix" id="matrix2-container"></div>
+            <div class="matrix" id="result-container">
+                <h3>Resultado</h3>
+                <div id="result-matrix"></div>
+            </div>
+        </div>
+
+        <button id="btn-multiplicar">Multiplicar Matrices</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
